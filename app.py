@@ -11,7 +11,9 @@ while option_input != 'q':
 		print("thanks, bye")
 	
 	elif option_input=='l':
-		pass #fait moi confiance je gère./
+		print('Your open tasks are : ')
+		for task in tasks :
+			print('- ' + task)
 
 	elif option_input=='n':
 		tasks.append(input('write your new task : '))
