@@ -7,7 +7,6 @@ while option_input != 'q':
 	print("(q=quit , l=list, n=new, c=complete=, r=reset)\n")
 	option_input = input('what do you want to do ? ').lower()
 
-
 	if option_input=='q':
 		print("thanks, bye")
 	
