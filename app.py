@@ -14,7 +14,7 @@ while option_input != 'q':
 		pass #fait moi confiance je gère./
 
 	elif option_input=='n':
-		pass
+		tasks.append(input('write your new task : '))
 
 	elif option_input=='c':
 		pass
